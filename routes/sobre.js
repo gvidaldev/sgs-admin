@@ -2,8 +2,11 @@ const express = require('express');
 const router = express.Router();
 
 router.get('/', (req, res) => {
-    // res.send("Página Inicial do Site");
-    res.render("home/home");
+    res.render("sobre/sobre");
+});
+
+router.get('/', (req, res) => {
+    res.render("sobre/edit-sobre");
 });
 
 module.exports = router;
