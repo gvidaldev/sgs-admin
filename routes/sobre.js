@@ -5,7 +5,7 @@ router.get('/', (req, res) => {
     res.render("sobre/sobre");
 });
 
-router.get('/', (req, res) => {
+router.get('/edit-sobre', (req, res) => {
     res.render("sobre/edit-sobre");
 });
 
